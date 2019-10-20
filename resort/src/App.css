@@ -484,6 +484,7 @@ h6 {
   width: 100%;
   background: transparent;
   font-size: 1rem;
+  border-radius: 0.3rem;
 }
 .size-inputs {
   display: flex;
