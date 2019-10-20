@@ -8,7 +8,8 @@ class RoomProvider extends Component {
     rooms: [],
     sortedRooms: [],
     featuredRooms: [],
-    loading: true
+    loading: true,
+    type: 'all'
   };
 
   componentDidMount() {
