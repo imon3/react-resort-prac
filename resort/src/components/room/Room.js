@@ -4,8 +4,8 @@ import defaultImg from '../../images/room-1.jpeg';
 import PropTypes from 'prop-types';
 
 const Room = props => {
-  console.log(props);
   const { name, slug, images, price } = props.room;
+
   return (
     <article className='room'>
       <div className='img-container'>
